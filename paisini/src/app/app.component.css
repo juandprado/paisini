@@ -1,0 +1,15 @@
+h1 {
+  font-size: 70px;
+}
+
+img {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 50%;
+  border: 10px solid rgb(185, 185, 185);
+}
+
+.profile {
+  padding: 10px;
+  font-size: 40px;
+}
