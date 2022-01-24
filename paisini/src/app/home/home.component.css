@@ -1,0 +1,24 @@
+h1 {
+  font-size: 70px;
+}
+
+img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  border: 10px solid rgb(185, 185, 185);
+}
+
+.profile {
+  padding: 10px;
+  font-size: 40px;
+  align-self: center;
+}
+
+.homecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
