@@ -4,10 +4,8 @@ h1 {
 
 h2 {
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-weight: lighter;
-  text-align: center;
-  line-height: 120%;
 }
 
 h2.hireme {
@@ -17,16 +15,9 @@ h2.hireme {
 
 img {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 10%;
   border: 7px solid rgb(185, 185, 185);
-}
-
-.skills {
-  padding: 10px;
-  font-size: 40px;
-  align-self: center;
-  margin-bottom: 20px;
 }
 
 .infocontainer {

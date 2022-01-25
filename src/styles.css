@@ -14,7 +14,7 @@
 
 .content {
   display: flex;
-  margin: 82px auto 32px;
+  margin: 0px auto 32px;
   padding: 0 16px;
   max-width: 960px;
   flex-direction: column;
@@ -27,4 +27,12 @@ svg#clouds {
   left: -230px;
   z-index: -10;
   width: 1920px;
+}
+
+.infocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
 }
