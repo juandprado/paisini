@@ -24,6 +24,13 @@ img {
   margin-top: 40px;
 }
 
+.skills {
+  padding: 1%;
+  font-size: 40px;
+  align-self: center;
+  margin-bottom: 2%;
+}
+
 @media screen and (max-width: 900px) {
   h2 {
     font-size: 30px;
@@ -48,5 +55,9 @@ img {
   img {
     width: 80%;
     height: 80%;
+  }
+
+  .skills {
+    font-size: 30px;
   }
 }

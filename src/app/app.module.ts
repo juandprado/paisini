@@ -8,16 +8,24 @@ import { MatButtonModule } from '@angular/material/button';
 import { InfoComponent } from './info/info.component';
 import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ReferencesComponent } from './references/references.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'info', component: InfoComponent },
   { path: 'skills', component: SkillsComponent },
+  { path: 'references', component: ReferencesComponent },
   { path: '**', redirectTo: '' },
 ];
 
 @NgModule({
-  declarations: [AppComponent, InfoComponent, HomeComponent, SkillsComponent],
+  declarations: [
+    AppComponent,
+    InfoComponent,
+    HomeComponent,
+    SkillsComponent,
+    ReferencesComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
