@@ -23,12 +23,35 @@ img {
 }
 
 .skills {
-  padding: 10px;
+  padding: 1%;
   font-size: 40px;
   align-self: center;
-  margin-bottom: 20px;
+  margin-bottom: 2%;
 }
 
 .infocontainer {
   margin-top: 40px;
+}
+
+@media screen and (max-width: 690px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h2.hireme {
+    font-weight: 300;
+  }
+
+  img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .skills {
+    font-size: 30px;
+  }
 }

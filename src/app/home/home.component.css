@@ -18,3 +18,18 @@ img {
 .infocontainer {
   margin-top: 70px;
 }
+
+@media screen and (max-width: 690px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .profile {
+    font-size: 30px;
+  }
+}

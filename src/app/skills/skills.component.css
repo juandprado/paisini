@@ -23,3 +23,30 @@ img {
 .infocontainer {
   margin-top: 40px;
 }
+
+@media screen and (max-width: 900px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  h2.hireme {
+    font-weight: 300;
+  }
+
+  img {
+    width: 80%;
+    height: 80%;
+  }
+}
